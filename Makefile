@@ -2,10 +2,10 @@
 #all:main.o sum.o
 #	$(CC) main.o sum.o -o result
 #
-#main.o:main.c header.h
+#main.o:main.c
 #	$(CC) -c main.c -o main.o
 #
-#sum.o:sum.c header.h
+#sum.o:sum.c
 #	$(CC) -c sum.c -o sum.o
 #
 #clean:
